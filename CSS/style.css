@@ -1,0 +1,75 @@
+body {
+    background-color: #0c0c0c;
+}
+
+#message {
+    font-family: 'Shadows Into Light';
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #9a4523;
+}
+
+#all > ul {
+    list-style: none;
+    float: center;
+    width: 200px;
+    padding: 0 30px 0 30px;
+    align-items: center;
+}
+
+#all a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    background-color: #5a6164;
+    border-radius: 3px;
+    color: #201e1e;
+    text-align: center;
+    margin: 0 0 3px 0;
+    font-family: 'Rampart One';
+    font-weight: bold;
+    font-size: 23px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#all:hover a {
+    opacity: 1.0;
+}
+
+#all:hover ul:hover a {
+    opacity: 0.5;
+}
+
+#all:hover ul:hover a:hover {
+    opacity: 1;
+}
+
+#all:active a {
+    opacity: 1.0;
+}
+
+#all:active ul:active a {
+    opacity: 0.5;
+}
+
+#all:active ul:active a:active {
+    opacity: 0.9;
+}
+
+#Herranz {
+    font-family: 'Shadows Into Light';
+    font-size: 14px;
+    color: #fff;
+    margin-top: 115px;
+    cursor: 10px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+#Herranz:hover {
+    opacity: 0.9;
+}
