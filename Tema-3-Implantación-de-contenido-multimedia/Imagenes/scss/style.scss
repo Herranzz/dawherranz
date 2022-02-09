@@ -1,0 +1,75 @@
+@import "colors";
+@import "media";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $body-color;
+}
+
+header{
+    background-color: $primary-color;
+    display: flex;
+}
+
+main{
+    background-color: $secondary-color;
+}
+
+.logo{
+    width: 40%;
+}
+
+.title{
+    width: 50%;
+}
+
+.menu{
+    margin-right: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: white;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 50%;
+    padding: 3px;
+}
+
+.column img{
+    width: 100%;
+    margin-top: 3px;
+}
+
+footer{
+    display: flex;
+    background-color: $primary-color;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .column{
+      flex: 100%;
+    }
+    header ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .column{
+        flex: 25%;
+    }
+}
