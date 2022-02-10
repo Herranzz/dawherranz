@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fuente encabezado-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--Fuente botones-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet"> 
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Fuentes</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="fuentes.css">
+
+    <div id="message" align="center"><a href="../../index.html"><button><img src="https://img.icons8.com/glyph-neue/25/000000/return.png"/></button></a><strong>FUENTES</strong></div>
+     
+    <div id="page-wrap" align="center">
+        <div id="cuadro">
+
+            <h2>Familias de funetes genéricas</h2>
+            <p><strong>1.Las fuentes Serif</strong> tienen un pequeño trazo en los bordes de cada letra. Crean una sensación de formalidad y elegancia.</p>
+            <p><strong>2.Las fuentes sans-serif</strong> tienen líneas limpias (sin pequeños trazos adjuntos). Crean un aspecto moderno y minimalista.</p>
+            <p><strong>3.Fuentes monoespaciadas</strong> aquí todas las letras tienen el mismo ancho fijo. Crean un aspecto mecánico. </p>
+            <p><strong>4.Las fuentes cursivas</strong> imitan la escritura humana.</p>
+            <p><strong>5.Las fuentes de fantasía</strong> son fuentes decorativas/divertidas.</p>
+
+            <h2>Diferencia entre fuentes Serif y Sans-serif</h2>
+            <img src="https://www.w3schools.com/css/serif.gif" alt="fuentes">
+
+            <h2>Ejemplos de fuentes</h2>
+            <table class="table"> 
+                <tbody>
+                 <tr> 
+                  <th style="width:20%">Generic Font Family</th> 
+                  <th style="width:30%">Examples of Font Names</th> 
+                 </tr> 
+                 <tr> 
+                  <td>Serif</td> 
+                  <td><span style="font-size:150%;font-family:'Times New Roman',serif">Times New Roman</span><br> <span style="font-size:150%;font-family:Georgia,serif">Georgia</span><br> <span style="font-size:150%;font-family:Garamond,serif">Garamond</span><br> </td> 
+                 </tr> 
+                 <tr> 
+                  <td>Sans-serif</td> 
+                  <td><span style="font-size:150%;font-family:Arial,sans-serif">Arial</span><br> <span style="font-size:150%;font-family:Verdana,sans-serif">Verdana</span><br> <span style="font-size:150%;font-family:Helvetica,sans-serif">Helvetica</span><br> </td> 
+                 </tr> 
+                 <tr> 
+                  <td>Monospace</td> 
+                  <td><span style="font-size:150%;font-family:'Courier New',monospace">Courier New</span><br> <span style="font-size:150%;font-family:'Lucida Console',monospace">Lucida Console</span><br> <span style="font-size:150%;font-family:Monaco,monospace">Monaco</span> </td> 
+                 </tr> 
+                 <tr> 
+                  <td>Cursive</td> 
+                  <td><span style="font-size:150%;font-family:'Brush Script MT',cursive">Brush Script MT</span><br> <span style="font-size:150%;font-family:'Lucida Handwriting',cursive">Lucida Handwriting</span><br> </td> 
+                 </tr> 
+                 <tr> 
+                  <td>Fantasy</td> 
+                  <td><span style="font-size:150%;font-family:Copperplate,fantasy">Copperplate</span><br> <span style="font-size:150%;font-family:Papyrus,fantasy">Papyrus</span> </td> 
+                 </tr> 
+                </tbody>
+               </table><br>
+
+               <h2>Implementación en el CSS</h2>
+               <p>Se utiliza la etiqueta font-family.</p><br>
+               <div class="cod">
+
+                <p>.p1 {</p>
+                <p>font-family: "Times New Roman", Times. serif;</p>
+                <p>}</p>
+                <hr>
+                <p>.p2 {</p>
+                    <p>font-family: Arial, Helvetica, sans-serif;</p>
+                    <p>}</p>
+                <hr>
+                <p>.p3 {</p>
+                    <p>font-family: "Lucida Console", "Courier New", monospace;</p>
+                    <p>}</p>
+               </div>
+
+               <h2>Mejores fuentes para HTML y CSS</h2>
+               <p>.Arial (sans-serif)</p>
+               <p>.Verdana (sans-serif)</p>
+               <p>.Helvética (sans-serif)</p>
+               <p>.Tahoma (sans serif)</p>
+               <p>.Trebuchet MS (sans serif)</p>
+               <p>.Times New Roman (serif)</p>
+               <p>.Georgia (serif)</p>
+               <p>.Garamond (serif)</p>
+               <p>.Courier Nuevo (monoespaciado)</p>
+               <p>.Brush Script MT (cursiva)</p><br>
+
+               <h2>Estilo de fuente</h2>
+               <p>La font-stylepropiedad se utiliza principalmente para especificar texto en cursiva.</p>
+               <p>Pueden ser de tres tipos:</p>
+               <ol>
+                   <li><strong>normal</strong> - El texto se muestra normalmente.</li>
+                   <li id="cur"><strong>cursiva</strong> - El texto se muestra en cursiva.</li>
+                   <li id="ob"><strong>oblicua</strong> - El texto está inclinado.</li>
+               </ol>
+
+               <div class="cod">
+
+                    <p>p.normal {</p>
+                        <p>font-style: normal;</p>
+                        <p>}</p>
+                    <hr>
+                    <p>p.italic {</p>
+                        <p>font-style: italic;</p>
+                        <p>}</p>
+                    <hr>
+                    <p>p.oblique {</p>
+                        <p>font-style: oblique;</p>
+                        <p>}</p>
+
+               </div>
+
+               <h2>Tamaños de la fuente</h2>
+               <p>Se utiliza la etiqueta font-size para establecer el tamaño del texto.</p>
+
+               <h3>Tamaño de fuente en píxeles</h3>
+               <div class="cod">
+                    <p>h1 {</p>
+                    <p>font-size: 40px;</p>
+                    <p>}</p>
+               </div>
+
+               <h3>Tamaño de fuente con em</h3>
+               <p>1em es igual al tamaño de fuente actual. El tamaño de texto predeterminado en los navegadores es 16px. Entonces, el tamaño predeterminado de 1em es 16px.</p>
+               <p>El tamaño se puede calcular de píxeles a em usando esta fórmula: píxeles / 16 = em</p>
+
+               <div class="cod">
+                    <p>h1 {</p>
+                    <p>font-size: 2.5em; /* 40px/16=2.5em */</p>
+                    <p>}</p>
+               </div>
+
+               <h3>Tamaño de fuente con porcentaje</h3>
+               <div class="cod">
+                    <p>h1 {</p>
+                    <p>font-size: 100%;</p>
+                    <p>}</p>
+                </div>
+
+
+        </div>
+    </div>
+    <div id="Herranz" align="center">
+        <a href="https://herranzz.github.io/dawherranz/" target="_blank" id="Herranz">Autor<strong>@Jorge-Herranz</strong></a>
+    </div>
+  </body>
+</html>
