@@ -2,6 +2,14 @@ body {
     background-color: #0c0c0c;
 }
 
+header{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+}
+
 #message {
     font-family: 'Shadows Into Light';
     font-size: 34px;
