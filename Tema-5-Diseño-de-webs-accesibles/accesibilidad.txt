@@ -1,0 +1,9 @@
+herramientas accesibilidad web
+-online: TAW, HERA, Web accesibility Checher, Cyntia Says, WAVE, Tenon.io	
+mas interesante de las herramientas.
+
+-plugins: Firefox: Accesibility Evaluation Tools
+	  Chrome: Accesibility Developer Tools
+	  Edge y Opera: Web Accesibility Toolbar 
+
+-locales: AccessSniff, HtmlCodessniffer, grunt-accesibility, grunt-html-validator 
