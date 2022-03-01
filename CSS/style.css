@@ -3,7 +3,14 @@ body {
 }
 
 header{
-	text-align: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.dint{
+    margin-left: 110px;
 }
 
 footer{
