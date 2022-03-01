@@ -11,6 +11,16 @@ body {
     background-color: #9a4523;
 }
 
+header{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.dint{
+    margin-left: 110px;
+}
+
 #cuadro {
     border-left: 1px solid #8c817d;
     border-right: 1px solid #8c817d;
